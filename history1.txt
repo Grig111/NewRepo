@@ -1,0 +1,966 @@
+    1  ls
+    2  cd /destop
+    3  cd desktop
+    4  cd /desktop
+    5  cd /Desktop
+    6  cd Desktop
+    7  ls
+    8  mkdir new
+    9  cd new
+   10  git clone https://github.com/hardpixel/dash-to-plank.git~
+   11  ls
+   12  git clone https://github.com/hardpixel/dash-to-plank.git
+   13  ls
+   14  cd dash-to-plank/
+   15  ls
+   16  make install
+   17  cd dash-to-plank@hardpixel.eu/
+   18  ls
+   19  make install
+   20  cd
+   21  ls
+   22  cd loal
+   23  cd local
+   24  ls
+   25  cd Desktop/
+   26  ls
+   27  cd new
+   28  git clone https://github.com/micheleg/dash-to-dock.git
+   29  ls
+   30  cd dash-to-dock/
+   31  ls
+   32  make install
+   33  sudo reboot
+   34  cd Desktop/
+   35  cd new
+   36  git clone https://github.com/micheleg/dash-to-dock.git
+   37  ls
+   38  sudo rm -r  dash-to-dock/
+   39  git clone https://github.com/micheleg/dash-to-dock.git
+   40  ls
+   41  cd dash-to-dock/
+   42  make install
+   43  sudo reboot
+   44  ipconfig
+   45  ifconfig
+   46  sudo dnf update
+   47  [200~sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm~
+   48  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+   49  clear
+   50  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+   51  sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+   52  sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+   53  sudo dnf groupupdate sound-and-video
+   54  dnf install tlp tlp-rdw
+   55  sudo dnf install tlp tlp-rdw
+   56  sudo tlp-stat -b
+   57  dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+   58  sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+   59  dnf install https://repo.linrunner.de/fedora/tlp/repos/releases/tlp-release.fc$(rpm -E %fedora).noarch.rpm
+   60  sudo dnf install https://repo.linrunner.de/fedora/tlp/repos/releases/tlp-release.fc$(rpm -E %fedora).noarch.rpm
+   61  dnf install kernel-devel akmod-acpi_call akmod-tp_smapi
+   62  sudo dnf install kernel-devel akmod-acpi_call akmod-tp_smapi
+   63  sudo dnf grouplist -v
+   64  ls
+   65  cd Desktop/
+   66  ls
+   67  cd new/
+   68  git clone https://gitlab.gnome.org/GNOME/gnome-shell-extensions.git
+   69  ls
+   70  cd gnome-shell-extensions/
+   71  ls
+   72  make install
+   73  sudo make install
+   74  ./install .sh
+   75  cd extensions/
+   76  ls
+   77  sudo dnf install gnome-tweak-tool
+   78  hostnamectl set-hostname FED
+   79  cd
+   80  ls
+   81  cd
+   82  sudo reboot
+   83  sudo dnf upgrade
+   84  sudo dnf update
+   85  sudo reboot 
+   86  sudo tlp-stat -b
+   87  cd
+   88  cd new
+   89  ls
+   90  cd Desktop/
+   91  cd new/
+   92  ls
+   93  git clone git clone https://github.com/ewlsh/dash-to-dock/
+   94  git clone  https://github.com/ewlsh/dash-to-dock/
+   95  cd dash-to-dock/
+   96  make install
+   97  sudo reboot
+   98  sudo dnf update
+   99  ls
+  100  cd Desktop/
+  101  ls
+  102  cd new/
+  103  ls
+  104  sudo rm -r dash-to-dock/
+  105  git clone https://github.com/ewlsh/dash-to-dock.git
+  106  ls
+  107  cd dash-to-dock/
+  108  ls
+  109  make install
+  110  sudo reboot
+  111  ls
+  112  cd Desktop/
+  113  ls
+  114  cd new/
+  115  ls
+  116  cd dash-to-dock/
+  117  ls
+  118  cd ..
+  119  git checkout ewlsh/gnome-40
+  120  cd dash-to-dock/
+  121  git checkout ewlsh/gnome-40
+  122  make
+  123  make install
+  124  ls
+  125  make install
+  126  git pull
+  127  make install
+  128  cd ..
+  129  sudo rm -r dash-to-dock/
+  130  ls
+  131  git clone https://github.com/ewlsh/dash-to-dock/
+  132  git checkout ewlsh/gnome-40
+  133  cd dash-to-dock/
+  134  git checkout ewlsh/gnome-40
+  135  make install
+  136  ls
+  137  cd ..
+  138  ls
+  139  sudo rm -r dash-to-dock/
+  140  ls
+  141  git clone https://github.com/ewlsh/dash-to-dock/
+  142  cd dash-to-dock/
+  143  git checkout ewlsh/gnome-40
+  144  make
+  145  make install
+  146  sudo reboot
+  147  make install
+  148  ./install .sh
+  149  cd De
+  150  cd Desktop/
+  151  ls
+  152  cd new
+  153  git clone git clone https://github.com/aunetx/blur-my-shell
+  154  git clone https://github.com/aunetx/blur-my-shell
+  155  ls
+  156  cd blur-my-shell/
+  157  ls
+  158  make install
+  159  sudo reboot
+  160  make install
+  161  sudo systemctl status iio-sensor-proxy.service
+  162  sudo tlpn-stat -b
+  163  sudo tlp-stat -b
+  164  sudo snap install pycharm-educational --classic
+  165  sudo dnf install snap
+  166  sudo dnf install pycharm-educational --classic
+  167  sudo dnf install snapd
+  168  sudo snap install pycharm-educational --classic
+  169  sudo snap install pycharm-educational 
+  170  sudo snap install pycharm-educational --classic
+  171  sudo reboot
+  172   sudo apt-get install dconf-cli
+  173  Navas#@!
+  174   sudo apt-get install dconf-cli
+  175  sudo dnf install apt
+  176  cd Desktop/
+  177  ls
+  178  cd ne
+  179  cd new/
+  180   git clone https://github.com/dracula/gnome-terminal
+  181  cd gnome-terminal
+  182  ls
+  183  ./install.sh
+  184  sudo reboot
+  185  cd 
+  186  ls
+  187  cd Desktop/
+  188  ls
+  189  nmap 192.168.0.1
+  190  http 192.168.0.1
+  191  nmap 192.168.0.
+  192  nmap 192.168.0.1
+  193  cd Desktop/
+  194  l
+  195  ll
+  196  cd new
+  197  ls
+  198  ll
+  199  cd gnome-terminal/
+  200  ls
+  201  cd ..
+  202  sudo rm -r gnome-terminal/
+  203  ls
+  204  l
+  205  crunsh 8 8 0123456789 -0 wordlist
+  206  crunch 8 8 0123456789 -0 wordlist
+  207  cd
+  208  sudo dnf install apt
+  209  sudo apt-get install crunch
+  210  sudo dns install crunch
+  211  sudo dnf install crunch
+  212  dnf copr enable youssefmsourani/crunch 
+  213  sudo dnf copr enable youssefmsourani/crunch 
+  214  cd new
+  215  cd Desktop/
+  216  ls
+  217  cd new
+  218  crunch 8 8 0123456789 -0 word
+  219  crunch 8 8 0123456789 -o word
+  220  ls
+  221  cat word 
+  222  crunch --help
+  223  crunch -options --help
+  224  date
+  225  update date
+  226  sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+  227  sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+  228  sudo dnf -y install ffmpeg
+  229  sudo dnf -y install ffmpeg-devel
+  230  ffmpeg --vesion
+  231  ffmpeg -vesion
+  232  ffmpeg -version
+  233  ffmpeg --help
+  234  ffmpeg --h
+  235  ffmpeg -h
+  236  ffmpeg -codecs
+  237  ls
+  238  ffmpeg ZAZ.webm -pix_fmt yuv420 out.mp4
+  239  ffmpeg -i  ZAZ.webm -pix_fmt yuv420 out.mp4
+  240  ls
+  241  ffmpeg -i  ZAZ .webm -pix_fmt yuv420 out.mp4
+  242  ls
+  243  ffmpeg -i  ZAZ.webm -pix_fmt yuv420 out.mp4
+  244  ffmpeg -formats
+  245  ffmpeg -i  ZAZ.webm -pix_fmt yuv420 out.webm
+  246  ffmpeg -i  test.webm -pix_fmt yuv420 out.webm
+  247  ffmpeg -i  test.webm -pix_fmt yuv720 out.webm
+  248  ffmpeg -i  test.webm -pix_fmt yuv360 out.webm
+  249  sudo ffmpeg -i  test.webm -pix_fmt yuv460 out.webm
+  250  sudo ffmpeg -i  test.webm -vf format=yuv460 out.webm
+  251  sudo ffmpeg -i  test.webm -vf format=yuv460 out.mp4
+  252  ffmpeg -i  test.webm -vf format=yuv420 out.mp4
+  253  sudo ffmpeg -i  test.webm -vf format=yuv420 out.mp4
+  254   ffmpeg -i  test.webm -vf format=yuv420 out.mp4
+  255   ffmpeg -i  test.webm -vf format=yuv420p out.mp4
+  256   ffmpeg -i  test.webm -vf format=yuv720p out.mp4
+  257   ffmpeg -i  test.webm -vf format=yuv1080p out.mp4
+  258  sudo  ffmpeg -i  test.webm -vf format=yuv1080p out.mp4
+  259   ffmpeg -i  test.webm -vf format=yuv1080p out.mp4
+  260   ffmpeg -i  test.webm -vf format=yuv1080 out.mp4
+  261   ffmpeg -i  test.webm -vf format=yuv720p out.mp4
+  262   ffmpeg -i  test.webm -r 60 -s hd720 out.mp4
+  263   ffmpeg -i  test.webm -r 60 -s hd1080 out.mp4
+  264  ffmepg --help
+  265  ffmpeg --help
+  266  ffmepg -codecs
+  267  ffmpeg -codecs
+  268  sudo update ntp
+  269  sudo update ntp-time
+  270  sudo service ntp start
+  271  sudo systemctl service ntp start
+  272  sudo systemctl service ntp status
+  273  sudo systemctl  ntp status
+  274  sudo systemctl  ntp
+  275  sudo systemctl  ntp status
+  276  sudo systemctl  ntp service  status
+  277  sudo systemctl service ntp status
+  278  htop
+  279  aux
+  280  ps aux
+  281  ffmpeg --codecs
+  282  ffmpeg -codecs
+  283  ffmpeg -codecs | grep h264
+  284  crunch 8 8 0123456789 -l word.txt
+  285  crunch 8 8 0123456789 -o word.txt
+  286  ifconfig
+  287  yum install aircrack-ng
+  288  sudo yum install aircrack-ng
+  289  ifconfig /all
+  290  ifconfig 
+  291  ifconfig --help
+  292  ifconfig 
+  293  airmon-ng
+  294  ifconfig
+  295  airodump-ng
+  296  sudo apt install airodump-ng
+  297  dnf install airodump-ng
+  298  sudo dnf install airodump-ng
+  299  clear
+  300  sudo dns install snapd
+  301  sudo dnf install snapd
+  302  sudo apt update
+  303  sudo dnf update
+  304  sudo ln -s /var/lib/snapd/snap /snap
+  305  sudo snap install aircrack-ng-snap --candidate
+  306  clear
+  307  sudo apt install gdebi
+  308  sudo dnf install gdebi
+  309  sudo apt install ./zoom_amd.deb
+  310  cd new
+  311  cd /news
+  312  cd /new
+  313  ls
+  314  cd desktop
+  315  cd Desktop/
+  316  ls
+  317  clear
+  318  cd new
+  319  wget https://zoom.us/client/latest/zoom_x86_64.rpm
+  320  ls
+  321  rm -r out.mp4
+  322  rm -r test.webm
+  323  rm -r test.word
+  324  rm -r word
+  325  ls
+  326  clear
+  327  ls
+  328  sudo apt install ./zoom_x86_64.rpm
+  329  sudo dnf install ./zoom_x86_64.rpm
+  330  sudo dnf install wireshark
+  331  ifcofnig
+  332  ifconfig
+  333  airmon-ng check kill
+  334  airmon-ng start wlp0s20f3
+  335  sudo dnf install aircrack-ng
+  336  sudo dnf install airmon-ng
+  337  sudo dnf remove airmon-ng
+  338  sudo dnf purge airmon-ng
+  339  sudo dnf --purge airmon-ng
+  340  sudo -- purge airmon-ng
+  341  sudo dnf autoremove
+  342  sudo reboot
+  343  ifconfig
+  344  nmap 192.168.33.1
+  345  nmap -Pa 192.168.33.1
+  346  nmap -P 192.168.33.1
+  347  nmap -a 192.168.33.1
+  348  nmap -h
+  349  nmap -O 192.168.33.1
+  350  sudo nmap -O 192.168.33.1
+  351  sudo nmap -O 192.168.33.2
+  352  sudo nmap 192.168.33.0/24
+  353  tracert 8.8.8.8
+  354  trancert 8.8.8.8
+  355  tracert 8.8.8.8
+  356  ping 8.8.8.8
+  357  traceroute 8.8.8.8
+  358  sudo nmap 192.168.39.1
+  359  sudo nmap -Pn 192.168.39.1
+  360  sudo nmap -Pn 192.168.39.254
+  361  http 192.168.39.254
+  362  sudo nmap -O 192.168.39.254
+  363  sudo apt update
+  364  sudo service bluetooth disable
+  365  sudo systemctl disable bluetooth 
+  366  cd /etc/systemd/system
+  367  ls
+  368  ll
+  369  ls
+  370  sudo apt update
+  371  sudo apt upgrade
+  372  ssh test@212.34.228.71
+  373  ssh test@212.34.228.70
+  374  ssh test@212.34.228.71
+  375  ssh test@212.34.228.68
+  376  ping 8.8.8.8 -t
+  377  ping 8.8.8.8 
+  378  ping 8.8.8.8
+  379  passwd
+  380  sudo dnf install update
+  381  cd etc
+  382  cd /etc
+  383  find apa
+  384  find apache
+  385  find net
+  386  find netplan
+  387  ll
+  388  ls
+  389  find pki
+  390  clear
+  391  sudo dns install superscan
+  392  sudo dnf install superscan
+  393  sudo dns install apt
+  394  sudo dnf install apt
+  395  sudo apt install superscan
+  396  apt-cache search superscan
+  397  apt-cache search  netcat
+  398  apt-cache search  Nping
+  399  sudo dnf install Nping
+  400  sudo apt install Nping
+  401  sudo dnf install anydesk
+  402  ls
+  403  cd Downloads/
+  404  ls
+  405  wget https://download.anydesk.com/linux/anydesk_6.1.1-1_amd64.deb?_ga=2.119461193.1998534101.1628422157-1476578837.1628422157
+  406  ls
+  407  ll
+  408  ls
+  409  sudo dnf install update
+  410  sudo dnf  update
+  411  sudo dnf upgrade
+  412  sudo reboot
+  413   curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  414  sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  415   sudo chmod a+rx /usr/local/bin/youtube-dl
+  416  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM -0 /Download/
+  417  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM -0 /Downloads/
+  418  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM -o /Downloads/
+  419  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM -O /Downloads/
+  420  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM
+  421  youtube-dl 
+  422   cd /usr/local/bin/
+  423  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM
+  424  ls | grep youtube-dl 
+  425  youtube-dl 
+  426  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM
+  427  sudo youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM
+  428  sudo youtube-dl -v -f  https://www.youtube.com/watch?v=FoIFYo9kCaM
+  429  youtube-dl: line 1: 302: command not found
+  430  youtube-dl --version
+  431  sudo dnf update
+  432  youtube-dl --version
+  433  youtube-dl --help
+  434  cd
+  435  youtube-dl ls
+  436  youtube-dl --help
+  437  cd /usr/local/bin/
+  438  ls
+  439  ll
+  440  cd
+  441  sudo dnf isntall pip
+  442  sudo dnf install pip
+  443  pip3 install youtube-dl
+  444  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM
+  445  pip install --upgrade youtube-dlA
+  446  sudo pip install --upgrade youtube-dl
+  447  sudo pip3 install youtube-dl
+  448  youtube-dl pip install --upgrade youtube-dl
+  449  youtube-dl --version
+  450  youtube-dl --help
+  451  youtube-dl https://www.youtube.com/watch?v=FoIFYo9kCaM
+  452  cd /usr/bin/
+  453  cd /lost+found/
+  454  cd /usr/local/
+  455  cd bin/
+  456  ls
+  457  sudo rm youtube-dl 
+  458  ls
+  459  cd
+  460  youtube-dl https://www.youtube.com/watch?v=lBzQ4PjsjPE
+  461  cd /etc
+  462  find youtube-dl
+  463  cd 
+  464  cd /usr/bin/
+  465  cd 
+  466  youtube-dl 
+  467  youtube-dl -h
+  468  asdsa
+  469  ping 8.8.8.
+  470  ping 8.8.8.8
+  471  ifconfig
+  472  curl google
+  473  curl google.com
+  474  sudo dnf install figlet
+  475  echo "adsfsdf" 
+  476  sudo dnf purge figlet
+  477  sudo apt purge figlet
+  478  sudo dnf purge figlet
+  479  sudo dnf remove figlet
+  480  sudo dnf autoremove
+  481  sudo apt-get update
+  482  sudo visudo
+  483  ls
+  484  sudo apt update
+  485  ls
+  486  l
+  487  ls
+  488  sudo nano  visudo
+  489  cd /etc
+  490  find sudoers
+  491  sudo nano sudoers
+  492  cd /etc
+  493  find bashrc
+  494  sudo nano bashrc
+  495  sudo nano sudoers
+  496  sudo nano bashrc
+  497  cd /etc
+  498  sudo nano nanorc
+  499  highlight --help
+  500  man highlight
+  501  highlight -O xterm256 your-file | less -R
+  502  sudo dnf install pip
+  503  source-highlight -f esc256 -i your-file | less -R
+  504  cd
+  505  ls
+  506  cd /etc
+  507  ls
+  508  ll
+  509  la
+  510  ls
+  511  cd Desktop/
+  512  ls
+  513  cd new
+  514  cd 
+  515  ls
+  516  cd
+  517  cdc
+  518  ls
+  519  sudo dnf update
+  520  cd /etc
+  521  cp bashrc bashrc.copy
+  522  sudo cp bashrc bashrc.copy
+  523  sudo nano bashrc
+  524  ls
+  525  cd
+  526  sudo dnf install pacman
+  527  cd /etc
+  528  ls | grep colors
+  529  find colors
+  530  find col
+  531  ls | grep col
+  532  cp DIR_COLORS.lightbgcolor DIR_COLORS.lightbgcolor
+  533  cp DIR_COLORS.lightbgcolor DIR_COLORS.lightbgcolor.bakcup
+  534  sudo cp DIR_COLORS.lightbgcolor DIR_COLORS.lightbgcolor.bakcup
+  535  sudo cp DIR_COLORS DIR_COLORS.backup
+  536  sudo rm DIR_COLORS.lightbgcolor.bakcup 
+  537  ls | grep DIR_COLO
+  538  sudo nano DIR_COLORS
+  539  ls
+  540  cd 
+  541  ls
+  542  cd /etc
+  543  ls
+  544  exit
+  545  ls
+  546  cd /etc
+  547  c d
+  548  cd
+  549  pint 
+  550  pint s
+  551  echo s
+  552  sudo dnf install ip-tables
+  553  sudo dnf install iptables
+  554  sudo apt install iptables
+  555  sudo apt-cache search iptables
+  556  ls
+  557  cd Desktop/
+  558  sudo dnf update
+  559  reboot
+  560  ./pycharm.sh 
+  561  cd
+  562  ls
+  563  youtube-dl  --help
+  564  clear
+  565  sudo chmod a+rx /usr/local/bin/youtube-dl~
+  566  sudo chmod a+rx /bin/youtube-dl~
+  567  cd /bin
+  568  find youtube
+  569  find youtube-dl
+  570  ls | grep youtub
+  571  ls | grep youtube
+  572  cd 
+  573  ls
+  574  cd /etc
+  575  cd ls
+  576  c d..
+  577  ls
+  578  cd ..
+  579  ls
+  580  sudo dnf install ffmpeg
+  581  youtube-dl -x --audio-format mp3 --prefer-ffmpeg https://www.youtube.com/watch?v=AqDOxi2iKxI
+  582  sudo youtube-dl -x --audio-format mp3 --prefer-ffmpeg https://www.youtube.com/watch?v=AqDOxi2iKxI
+  583  youtube-dl -x --audio-format mp3 --prefer-ffmpeg https://www.youtube.com/watch?v=AqDOxi2iKxI
+  584  youtube-dl  https://www.youtube.com/watch?v=AqDOxi2iKxI
+  585  sudo youtube-dl  https://www.youtube.com/watch?v=AqDOxi2iKxI
+  586  cd
+  587  youtube-dl https://www.youtube.com/watch?v=XZFMF39MEd8
+  588  cd
+  589  youtube-dl  https://www.youtube.com/watch?v=AqDOxi2iKxI
+  590  cd
+  591  ls
+  592  youtube-dl -x --audio-format mp3 --prefer-ffmpeg https://www.youtube.com/watch?v=AqDOxi2iKxI
+  593  cd Desktop/
+  594  nano myfile
+  595  cd
+  596  youtube-dl -x --audio-format mp3 --prefer-ffmpeg https://www.youtube.com/watch?v=GrFmM7m_i38
+  597  man ffmpeg
+  598  ls
+  599  c d
+  600  cd
+  601  s
+  602  sudo dnf upgrade
+  603  cd
+  604  sudo dnf upgrade
+  605  ls
+  606  l
+  607  ls
+  608  l
+  609  ls
+  610  sudo curl -o /etc/yum.repos.d/skype-stable.repo https://repo.skype.com/rpm/stable/skype-stable.repo
+  611  sudo dnf install skypeforlinux
+  612  lsus b
+  613  lsusb
+  614  lspci
+  615  ls
+  616  cd
+  617  ls
+  618  ping 8.8.8.8
+  619  curl google.com
+  620  pinf fb.com
+  621  ping fb.com
+  622  ls
+  623  gorkg
+  624  dc /etc
+  625  cd /etc
+  626  ls
+  627  youtube-dl -x --audio-format mp3 --prefer-ffmpeg  https://www.youtube.com/watch?v=x197_mdlOQA
+  628  youtube-dl -x --audio-format mp3 --prefer-ffmpeg  https://www.youtube.com/watch?v=oMQ6KGrQmcE
+  629  lspci
+  630  sudo wireshark 
+  631  cd /et/c
+  632  cd /etc
+  633  cd systemd/
+  634  ls
+  635  ll
+  636  ls
+  637  ll
+  638  la
+  639  ll
+  640  ls
+  641  cd ..
+  642  cd xdg/
+  643  ls
+  644  cat autostart/
+  645  cd autostart/
+  646  ls
+  647  find skype
+  648  dcd
+  649  cd
+  650  ls
+  651  git config 
+  652  git --config
+  653  git --global
+  654  cd
+  655  ls
+  656  cd /repo
+  657  mkdir repo
+  658  cd repo/
+  659  git clone https://github.com/Grig111/NewRepo.git
+  660  ls
+  661  cd NewRepo/
+  662  ls
+  663  diff
+  664  dif
+  665  git diff
+  666  echo "Nor file" >> grigfile
+  667  ls
+  668  cat grigfile 
+  669  diff
+  670  git diff
+  671  git add .
+  672  git diff
+  673  git commit -a
+  674  git commit -m "popoxutyun"
+  675  git diff main 
+  676  git branch
+  677  git add .
+  678  git commit -m "nor"
+  679  git config --global user.email "navasardyan.grigory@gmail.com"
+  680  git config --global user.name "Grig"
+  681  ls
+  682  git commit -m "nor"
+  683  git status 
+  684  git push origin main 
+  685  sudo dnf install update
+  686  ls
+  687  cat install-sh 
+  688  ls
+  689  sudo ./INSTALL
+  690  sudo ./install-sh
+  691  find /usr/lib/modules/ | grep realtek
+  692  git --version 
+  693  sudo dnf update git
+  694  git --help
+  695  sudo dnf install git
+  696  d /etc
+  697  cd /etc
+  698  ls
+  699  cd ~
+  700  pwd
+  701  ls
+  702  cd
+  703  ls
+  704  cd test-git
+  705  mkdir test-git
+  706  cd test-git/
+  707  ls
+  708  git init 
+  709  ll
+  710  ls
+  711  la
+  712  ls 
+  713  ls -l
+  714  cd 
+  715  ll
+  716  cd
+  717  ls
+  718  cd Desktop/
+  719  ll
+  720  ls -l
+  721  ls
+  722  cd ..
+  723  cd test-git/
+  724  ls
+  725  ls -l
+  726  git init 
+  727  ls
+  728  ls -l
+  729  ls -al
+  730  cd
+  731  alias ll="ls -al"
+  732  ll
+  733  cd test-git/
+  734  ls
+  735  ll
+  736  cd .git/
+  737  ls
+  738  ll
+  739  cd ..
+  740  nano test
+  741  ls
+  742  cat test 
+  743  git status 
+  744  git add test test 
+  745  git status 
+  746  git commit -m "testing git commands"
+  747  ll
+  748   cd
+  749  ls
+  750  cd test-git/
+  751  git clone https://github.com/Grig111/NewRepo.git
+  752  ls
+  753  cd tes
+  754  ls
+  755  cd test
+  756  cd NewRepo/
+  757  ls
+  758  echo >> newfile
+  759  ls
+  760  cat newfile 
+  761  echo "nor file" >> newfile
+  762  ls
+  763  cat newfile 
+  764  git add .
+  765  git commit -m "nor file"
+  766  git push origin main 
+  767  cd
+  768  ll
+  769  cd test-git/
+  770  ls
+  771  cd .git/
+  772  ls
+  773  nano config 
+  774  c d..
+  775  cd ..
+  776  ls
+  777  cd NewRepo/
+  778  ls
+  779  git push origin main 
+  780  git pull origin main 
+  781  git push  origin main 
+  782  cd 
+  783  git config --global user.name "navasardyan.grigory@gmail.com"
+  784  git config --global user.name "grig111"
+  785  git config --global user.email "navasardyan.grigory@gmail.com"
+  786  cd 
+  787  cd test-git/
+  788  cd NewRepo/
+  789  ls
+  790  git add .
+  791  git commit .
+  792  git push 
+  793  git pull -v
+  794  git push 
+  795  cd
+  796  git config credential.helper store
+  797  cd test-git/
+  798  cd NewRepo/
+  799  git config credential.helper store
+  800  git push 
+  801  cd 
+  802  ls
+  803  cd test-git/
+  804  ls
+  805  sudo rm -r NewRepo/
+  806  ls
+  807  git clone https://github.com/Grig111/NewRepo.git
+  808  ls
+  809  cd NewRepo/
+  810  ls
+  811  echo "newfile" >> newfile
+  812  ls
+  813  git add .
+  814  git commit "Newfile"
+  815  git commit  -m "Newfile"
+  816  git push origin main 
+  817  vcd 
+  818  cd ..
+  819  cd .git/
+  820  ls
+  821  cat config 
+  822  ls
+  823  cd ..
+  824  cd 
+  825  cd /et/c
+  826  cd etc
+  827  cd /etc
+  828  ls
+  829  ls | grep git
+  830  find git
+  831  cd
+  832  find git
+  833  cd
+  834  whereis git
+  835  cd test-git/
+  836  ls
+  837  ll
+  838  ls
+  839  cd NewRepo/
+  840  ls
+  841  git add 
+  842  git add .
+  843  git commit 
+  844  git push origin main 
+  845  cd
+  846  cd /te
+  847  cd test-git/
+  848  git remote remove origin
+  849  git remote remove 
+  850  git remote remove NewRepo/
+  851  git remote NewRepo/
+  852  git rm NewRepo/
+  853  git remove NewRepo/
+  854  git remove remote NewRepo/
+  855  rm -r NewRepo/
+  856  ls
+  857  sudo rm -r NewRepo/
+  858  ls
+  859  git remote add origin https://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@github.com/navasardyan.grigory@gmail.com/https://github.com/Grig111/NewRepo.git
+  860  ls
+  861  git clone https://github.com/Grig111/NewRepo.git
+  862  ls
+  863  cd NewRepo/
+  864  ls
+  865  nano grigfile 
+  866  git add .
+  867  git commit -m "avelacum"
+  868  git push origin main 
+  869  cd
+  870  sudo add-apt-repository ppa:git-core/ppa -y
+  871  sudo dnf-dnf-repository ppa:git-core/ppa -y
+  872  sudo dnf install apt
+  873  sudo dnf-dnf-repository ppa:git-core/ppa -y
+  874  sudo add-apt-repository ppa:git-core/ppa -y
+  875  sudo dnf install git
+  876  sudo dnf update
+  877  sudo dnf install git
+  878  ll
+  879  ls
+  880  cd test-git/
+  881  ls
+  882  cd NewRepo/
+  883  ls
+  884  cat grigfile 
+  885  git add .
+  886  git commit 
+  887  git push origin main 
+  888  cd
+  889  sudo dnf purge git
+  890  sudo dnf remove git
+  891  sudo apt install git
+  892  sudo dnf install git
+  893  ll
+  894  ls
+  895  cd test-git/
+  896  ls
+  897  rm -r NewRepo/
+  898  sudo rm -r NewRepo/
+  899  ls
+  900  ll
+  901  cd
+  902   ls
+  903  cd test-git/
+  904  ls
+  905  git clone https://github.com/Grig111/NewRepo.git
+  906  ls
+  907  cd NewRepo/
+  908  ls
+  909  cat grigfile 
+  910  echo "avelacum" >> grigfile 
+  911  ls
+  912  cat grigfile 
+  913  sls
+  914  git add .
+  915  git commit -m "avelacum"
+  916  git push origin main 
+  917  git config --global user.name "navasardyan.grigory@gmail.com"
+  918  git config --global user.email "navasardyan.grigory@gmail.com"
+  919  git config -l
+  920  cd ..
+  921  sudo rm -r NewRepo/
+  922  ls
+  923  git clone https://github.com/Grig111/NewRepo.git
+  924  git config --global credential.helper cache
+  925  git config --global --unset credential.helper
+  926  git config --system --unset credential.helper
+  927  sudo git config --system --unset credential.helper
+  928  git pull -v
+  929  cd NewRepo/
+  930  ls
+  931  git pull -v
+  932  git push origin main 
+  933  c d
+  934  cd ..
+  935  cd 
+  936  cd /etc
+  937  find gitconfig
+  938  ls
+  939  whereis git
+  940  ls
+  941  cd 
+  942  ls
+  943  cd 
+  944  cd test-git/
+  945  ls
+  946  cd NewRepo/
+  947  ls
+  948  git push 
+  949  git push origin main 
+  950  ls
+  951  cat grigfile 
+  952  echo "new_config" >> grigfile 
+  953  git add .
+  954  git commit -m "newfile"
+  955  git push origin main 
+  956  ls
+  957  cd test-git/
+  958  ls
+  959  cd NewRepo/
+  960  git branch history1
+  961  git branch history1 
+  962  git checkout  history1 
+  963  brnach
+  964  git branch 
+  965  cd 
+  966  history >> history1.txt
